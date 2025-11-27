@@ -1,0 +1,74 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content-wrapper {
+  display: block;
+}
+
+.content-area {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  min-height: 600px;
+  animation: fadeIn 0.6s ease-in;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+  
+  .content-area {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem 0;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .content-area {
+    padding: 1rem;
+    border-radius: 15px;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 0.5rem 0;
+  }
+  
+  .container {
+    padding: 0 0.5rem;
+  }
+  
+  .content-area {
+    padding: 0.8rem;
+    border-radius: 12px;
+    min-height: 350px;
+  }
+}
