@@ -67,11 +67,11 @@ const specifications = [
         <p>想进一步了解？观看完整介绍视频了解产品实力。</p>
         <a
           className="video-button"
-          href="https://www.bilibili.com/video/BV1JKUzBaEjW/?vd_source=eb3a763f33da8c162da4e6c6c62bcceb"
+          href="https://www.bilibili.com/video/BV1aaS6B4Er6/?vd_source=eb3a763f33da8c162da4e6c6c62bcceb"
           target="_blank"
           rel="noreferrer"
         >
-          点击播放介绍视频
+          点击观看介绍视频
         </a>
       </div>
     </div>

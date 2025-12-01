@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tunnel-blasting-charging-robot/static/css/main.39f36436.css",
-    "main.js": "/tunnel-blasting-charging-robot/static/js/main.ade540f2.js",
+    "main.js": "/tunnel-blasting-charging-robot/static/js/main.8948c80c.js",
     "index.html": "/tunnel-blasting-charging-robot/index.html",
     "main.39f36436.css.map": "/tunnel-blasting-charging-robot/static/css/main.39f36436.css.map",
-    "main.ade540f2.js.map": "/tunnel-blasting-charging-robot/static/js/main.ade540f2.js.map"
+    "main.8948c80c.js.map": "/tunnel-blasting-charging-robot/static/js/main.8948c80c.js.map"
   },
   "entrypoints": [
     "static/css/main.39f36436.css",
-    "static/js/main.ade540f2.js"
+    "static/js/main.8948c80c.js"
   ]
 }
